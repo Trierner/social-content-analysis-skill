@@ -1,0 +1,8 @@
+interface:
+  display_name: "Social Content Analysis"
+  short_description: "Analyze social posts and extract usable ideas"
+  brand_color: "#DB2777"
+  default_prompt: "Use $social-content-analysis to explain this social content and turn it into useful ideas."
+
+policy:
+  allow_implicit_invocation: true
