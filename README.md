@@ -2,7 +2,13 @@
 
 A practical AI skill for analyzing social media content, explaining why it works, and turning it into useful ideas.
 
-This repository is designed first for **Codex**, with room to add a **Claude-compatible** version later.
+This repository is designed first for **Codex**, with a **Claude-compatible** version being developed separately.
+
+## Project Status
+
+- **Codex**: usable in `main` under `codex/`
+- **Claude**: in development on the `claude-support` branch
+- **License**: MIT
 
 ## What It Does
 
@@ -75,6 +81,7 @@ The goal is to analyze patterns ethically and turn them into original work.
 ```text
 social-content-analysis-skill/
 ├── README.md
+├── LICENSE
 ├── codex/
 │   ├── SKILL.md
 │   ├── agents/
@@ -92,7 +99,7 @@ social-content-analysis-skill/
 
 The `codex/` folder contains the Codex skill.
 
-The `claude/` folder is intended for a Claude-compatible version.
+The Claude version is being developed in the `claude-support` branch.
 
 ## Installing For Codex
 
@@ -171,9 +178,9 @@ For multiple pieces of content, it focuses on:
 
 ## Codex vs Claude
 
-This repository is currently built for **Codex**.
+This repository currently ships the Codex skill in `main`.
 
-Adding a `claude/` folder is intentional: each assistant has slightly different skill conventions and trigger behavior.
+A Claude-compatible version is being developed on `claude-support` because each assistant has different skill conventions and trigger behavior.
 
 Recommended approach:
 
@@ -184,6 +191,4 @@ Recommended approach:
 
 ## License
 
-Choose a license before publishing widely.
-
-For public reuse, MIT is simple and permissive.
+MIT. See [LICENSE](LICENSE).
